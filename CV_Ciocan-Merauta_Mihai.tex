@@ -1,0 +1,78 @@
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Mihai}
+\familyname{Ciocan-Merauta} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Strada Nicolae Giurca, bloc nr. 1}{Dumitresti, Vrancea, Romania}
+\mobile{(+40)737605900}
+\email{mihaiciocan44@gmail.com}
+\photo[80pt][0.4pt]{pic.jpg} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+\quote{"The quieter you become, the more you are able to hear" - Kali Linux}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+%
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Educatie}
+
+\cventry{2016-2020}{Bacalaureat}{Colegiul National "Unirea"}{Focsani}{\textit{9.60}}{Specializarea Matematica-Informatica}
+\cventry{2020-prezent}{Student}{Universitatea POLITEHNICA din Bucuresti}{Facultatea de Automatica si Calculatoare}{}{Specializarea Calculatoare si Tehnologia Informatiei}
+
+
+\section{Competente tehnice}
+
+\cvitem{Basic}{\textsc{C}, , \textsc{Python}, \LaTeX, \textsc{Git}}
+\cvitem{Intermediate}{OpenOffice, Linux, Microsoft Windows}
+\cvitem{Advanced}{Suport Hardware}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Competente Lingvistice}
+
+\cvitemwithcomment{Engleza}{Avansat}{Certificat de competenta lingvistica - 2019}
+
+\section{Interese}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Computer Science}{Data Science}
+\cvlistdoubleitem{Self learning}{Inteligenta Artificiala}
+\cvlistdoubleitem{Gaming}{Activitati sportive}
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
